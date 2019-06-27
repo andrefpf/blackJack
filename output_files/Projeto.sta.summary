@@ -1,0 +1,245 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -3.828
+TNS   : -31.080
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.313
+TNS   : -416.627
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -2.734
+TNS   : -24.493
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.013
+TNS   : -0.022
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -4.126
+TNS   : -37.038
+
+Type  : Slow 1100mV 85C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -1.990
+TNS   : -17.886
+
+Type  : Slow 1100mV 85C Model Recovery 'CLOCK_50'
+Slack : -1.081
+TNS   : -38.133
+
+Type  : Slow 1100mV 85C Model Removal 'CLOCK_50'
+Slack : 0.581
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 1.192
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 3.110
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -105.799
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -0.394
+TNS   : -5.861
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -0.394
+TNS   : -4.795
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -3.972
+TNS   : -31.825
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.995
+TNS   : -406.800
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -2.784
+TNS   : -25.039
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.387
+TNS   : -0.989
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.526
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -4.212
+TNS   : -37.831
+
+Type  : Slow 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -2.155
+TNS   : -19.371
+
+Type  : Slow 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -1.015
+TNS   : -35.511
+
+Type  : Slow 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 1.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 3.196
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.427
+TNS   : -113.008
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -0.394
+TNS   : -5.686
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -0.394
+TNS   : -4.745
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.909
+TNS   : -172.377
+
+Type  : Fast 1100mV 85C Model Setup 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -1.844
+TNS   : -14.595
+
+Type  : Fast 1100mV 85C Model Setup 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -1.232
+TNS   : -10.788
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.059
+TNS   : -0.063
+
+Type  : Fast 1100mV 85C Model Hold 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -2.031
+TNS   : -18.246
+
+Type  : Fast 1100mV 85C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -0.757
+TNS   : -6.808
+
+Type  : Fast 1100mV 85C Model Recovery 'CLOCK_50'
+Slack : -0.303
+TNS   : -9.014
+
+Type  : Fast 1100mV 85C Model Removal 'CLOCK_50'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 1.537
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.462
+TNS   : -18.461
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -1.812
+TNS   : -14.214
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.461
+TNS   : -145.733
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -1.229
+TNS   : -10.577
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.274
+TNS   : -0.800
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : -1.953
+TNS   : -17.542
+
+Type  : Fast 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : -0.805
+TNS   : -7.236
+
+Type  : Fast 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -0.199
+TNS   : -4.989
+
+Type  : Fast 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.481
+TNS   : -17.986
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_10Hz'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:A1|CLK_05Hz'
+Slack : 0.110
+TNS   : 0.000
+
+------------------------------------------------------------
