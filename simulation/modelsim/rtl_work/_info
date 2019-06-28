@@ -1,0 +1,357 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/alunos/Downloads/blackJack-A/simulation/modelsim
+Edatapath
+w1561663964
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8/home/alunos/Downloads/blackJack-A/datapath.vhd
+F/home/alunos/Downloads/blackJack-A/datapath.vhd
+l0
+L6
+VX1RY0KGb4oGIehiCbAKMI1
+!s100 BX9Nbcf[]2zoc:dONoR5G3
+Z5 OV;C;10.3d;59
+31
+Z6 !s110 1561664689
+!i10b 1
+!s108 1561664689.792111
+!s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/datapath.vhd|
+!s107 /home/alunos/Downloads/blackJack-A/datapath.vhd|
+!i113 1
+Z7 o-93 -work work
+Z8 tExplicit 1
+Edecbcd
+Z9 w1561655245
+R3
+R4
+R0
+Z10 8/home/alunos/Downloads/blackJack-A/DecBCD.vhd
+Z11 F/home/alunos/Downloads/blackJack-A/DecBCD.vhd
+l0
+L4
+VNV_18_7egbILdfnKhXmSk2
+!s100 4@Z1DQ4h:@]V;=fJm;7G<2
+R5
+31
+R6
+!i10b 1
+Z12 !s108 1561664689.748239
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/DecBCD.vhd|
+Z14 !s107 /home/alunos/Downloads/blackJack-A/DecBCD.vhd|
+!i113 1
+R7
+R8
+Adecod
+R3
+R4
+DEx4 work 6 decbcd 0 22 NV_18_7egbILdfnKhXmSk2
+l12
+L11
+V_CPmcVYjoF58TIJjEJJCB2
+!s100 ^Ok_CoNOV:KHTN9fbQ?T42
+R5
+31
+R6
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R7
+R8
+Edecod7seg
+R9
+R3
+R4
+R0
+Z15 8/home/alunos/Downloads/blackJack-A/decod7seg.vhd
+Z16 F/home/alunos/Downloads/blackJack-A/decod7seg.vhd
+l0
+L4
+V86Zg]bZBK^;Z1dlzQOiD52
+!s100 h<3F>c[3OWJ4:<J;4kV3G0
+R5
+31
+R6
+!i10b 1
+Z17 !s108 1561664689.720637
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/decod7seg.vhd|
+Z19 !s107 /home/alunos/Downloads/blackJack-A/decod7seg.vhd|
+!i113 1
+R7
+R8
+Adecod
+R3
+R4
+DEx4 work 9 decod7seg 0 22 86Zg]bZBK^;Z1dlzQOiD52
+l12
+L11
+VO5I`AXMK9RYM2:[S0ZY;@3
+!s100 RLGIz2liQ_VGXKToADlb^0
+R5
+31
+R6
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R7
+R8
+Edecoder
+R9
+R3
+R4
+R0
+Z20 8/home/alunos/Downloads/blackJack-A/decoder.vhd
+Z21 F/home/alunos/Downloads/blackJack-A/decoder.vhd
+l0
+L4
+V01CKSa;^J10m76i^G^9>b3
+!s100 6QiYTP1nH7cW=PMVl7KK11
+R5
+31
+R6
+!i10b 1
+Z22 !s108 1561664689.695823
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/decoder.vhd|
+Z24 !s107 /home/alunos/Downloads/blackJack-A/decoder.vhd|
+!i113 1
+R7
+R8
+Adecod
+R3
+R4
+DEx4 work 7 decoder 0 22 01CKSa;^J10m76i^G^9>b3
+l12
+L11
+VoDdUZ=WgDX@f08d`NGa9_1
+!s100 o8_OeQaU>3d@T0=N]93mz0
+R5
+31
+R6
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R7
+R8
+Efsm_clock
+R9
+R2
+R1
+R3
+R4
+R0
+Z25 8/home/alunos/Downloads/blackJack-A/FSM_clock.vhd
+Z26 F/home/alunos/Downloads/blackJack-A/FSM_clock.vhd
+l0
+L5
+Vh07aPzkUHKB<YP]`Mbai33
+!s100 P=6UPd3Nbh;hRFB;RjQ>:0
+R5
+31
+R6
+!i10b 1
+Z27 !s108 1561664689.666851
+Z28 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/FSM_clock.vhd|
+Z29 !s107 /home/alunos/Downloads/blackJack-A/FSM_clock.vhd|
+!i113 1
+R7
+R8
+Afrequencia
+R2
+R1
+R3
+R4
+DEx4 work 9 fsm_clock 0 22 h07aPzkUHKB<YP]`Mbai33
+l29
+L19
+V]J41z3<hg<EWok8dA5kXK0
+!s100 Hn:0EAg[?3l`g?Hh5]j5E0
+R5
+31
+R6
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R7
+R8
+Emux
+R9
+R3
+R4
+R0
+Z30 8/home/alunos/Downloads/blackJack-A/multiplexador.vhd
+Z31 F/home/alunos/Downloads/blackJack-A/multiplexador.vhd
+l0
+L4
+VOOOczi7UY[c7ZROkF?X0f0
+!s100 lAZ<0j`e;MIZdU5LBSo_G0
+R5
+31
+R6
+!i10b 1
+Z32 !s108 1561664689.640558
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/multiplexador.vhd|
+Z34 !s107 /home/alunos/Downloads/blackJack-A/multiplexador.vhd|
+!i113 1
+R7
+R8
+Aselecti
+R3
+R4
+DEx4 work 3 mux 0 22 OOOczi7UY[c7ZROkF?X0f0
+l17
+L16
+VGC]cWR5GLcMHJ1Sjalz7d3
+!s100 dfkn0OGY7jI1IRDeUKgl`1
+R5
+31
+R6
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R7
+R8
+Emuxfrequencia
+R9
+R3
+R4
+R0
+Z35 8/home/alunos/Downloads/blackJack-A/muxFrequencia.vhd
+Z36 F/home/alunos/Downloads/blackJack-A/muxFrequencia.vhd
+l0
+L4
+V:6fUbS1JFzGzNfVJcDgTd0
+!s100 04Ekk1@H0WCKgZTLfcX`V0
+R5
+31
+R6
+!i10b 1
+Z37 !s108 1561664689.615337
+Z38 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/muxFrequencia.vhd|
+Z39 !s107 /home/alunos/Downloads/blackJack-A/muxFrequencia.vhd|
+!i113 1
+R7
+R8
+Aselecti
+R3
+R4
+DEx4 work 13 muxfrequencia 0 22 :6fUbS1JFzGzNfVJcDgTd0
+l17
+L16
+VKV`Yg@6FmNzAW?@E21ecO2
+!s100 4IIf__h`9E1HCW2FTLNAO3
+R5
+31
+R6
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R7
+R8
+Eregistrador
+R9
+R2
+R1
+R3
+R4
+R0
+Z40 8/home/alunos/Downloads/blackJack-A/registrador.vhd
+Z41 F/home/alunos/Downloads/blackJack-A/registrador.vhd
+l0
+L5
+VXd0<fgQ=fWGh5a=WhKFFV3
+!s100 J`0jHU@[1WZbjXM4Tc@g93
+R5
+31
+R6
+!i10b 1
+Z42 !s108 1561664689.587013
+Z43 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/registrador.vhd|
+Z44 !s107 /home/alunos/Downloads/blackJack-A/registrador.vhd|
+!i113 1
+R7
+R8
+Aregistro
+R2
+R1
+R3
+R4
+DEx4 work 11 registrador 0 22 Xd0<fgQ=fWGh5a=WhKFFV3
+l20
+L16
+VN<Zb6=l7=llcMCIT^<g]N0
+!s100 NZVil:4G;l`FLJT2e=g2i3
+R5
+31
+R6
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R7
+R8
+Esequencer
+R9
+R1
+R2
+R3
+R4
+R0
+Z45 8/home/alunos/Downloads/blackJack-A/Sequencer.vhd
+Z46 F/home/alunos/Downloads/blackJack-A/Sequencer.vhd
+l0
+L6
+VKlOLd9<SfmMC`danzMF]P2
+!s100 Kla6zoS^GIBG]<?oOCi>;3
+R5
+31
+R6
+!i10b 1
+Z47 !s108 1561664689.555419
+Z48 !s90 -reportprogress|300|-93|-work|work|/home/alunos/Downloads/blackJack-A/Sequencer.vhd|
+Z49 !s107 /home/alunos/Downloads/blackJack-A/Sequencer.vhd|
+!i113 1
+R7
+R8
+Aseq
+R1
+R2
+R3
+R4
+DEx4 work 9 sequencer 0 22 KlOLd9<SfmMC`danzMF]P2
+l21
+L16
+V:ZB`naoNQ:ENS]M5beiNW1
+!s100 b:OX=VH[2L4BXiGW_llb]3
+R5
+31
+R6
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R7
+R8

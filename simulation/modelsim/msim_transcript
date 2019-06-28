@@ -1,0 +1,147 @@
+# do Projeto_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /opt/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/15.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/Sequencer.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/Sequencer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Sequencer
+# -- Compiling architecture seq of Sequencer
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/registrador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/registrador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Registrador
+# -- Compiling architecture registro of Registrador
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/muxFrequencia.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/muxFrequencia.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity muxFrequencia
+# -- Compiling architecture selecti of muxFrequencia
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/multiplexador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/multiplexador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux
+# -- Compiling architecture selecti of mux
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/FSM_clock.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/FSM_clock.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity FSM_clock
+# -- Compiling architecture frequencia of FSM_clock
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/decoder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder
+# -- Compiling architecture decod of decoder
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/decod7seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/decod7seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decod7seg
+# -- Compiling architecture decod of decod7seg
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/DecBCD.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/DecBCD.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decBCD
+# -- Compiling architecture decod of decBCD
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/alunos/Downloads/blackJack-A/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:44:49 on Jun 27,2019
+# vcom -reportprogress 300 -93 -work work /home/alunos/Downloads/blackJack-A/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity datapath
+# -- Compiling architecture circuito of datapath
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(172): (vcom-1436) Actual expression (infix expression) of formal "enter" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(174): (vcom-1436) Actual expression (infix expression) of formal "enter" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(174): (vcom-1436) Actual expression (infix expression) of formal "reset" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(175): (vcom-1436) Actual expression (infix expression) of formal "enter" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(175): (vcom-1436) Actual expression (infix expression) of formal "reset" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(200): (vcom-1436) Actual expression (infix expression) of formal "C" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(201): (vcom-1436) Actual expression (infix expression) of formal "C" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(205): (vcom-1436) Actual expression (infix expression) of formal "C" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(210): (vcom-1436) Actual expression (infix expression) of formal "C" is not globally static.
+# ** Error: /home/alunos/Downloads/blackJack-A/datapath.vhd(219): VHDL Compiler exiting
+# End time: 16:44:49 on Jun 27,2019, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: /opt/altera/15.0/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./Projeto_run_msim_rtl_vhdl.do line 16
+# /opt/altera/15.0/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/alunos/Downloads/blackJack-A/datapath.vhd}"
+vsim work.datapath
+# vsim -i -l msim_transcript -do "Projeto_run_msim_rtl_vhdl.do" 
+# Start time: 16:44:55 on Jun 27,2019
+# Loading std.standard
+# ** Error: (vsim-3173) Entity '/home/alunos/Downloads/blackJack-A/simulation/modelsim/rtl_work.datapath' has no architecture.
+# Error loading design
+vsim work.datapath
+# vsim 
+# Start time: 16:44:56 on Jun 27,2019
+# Loading std.standard
+# ** Error: (vsim-3173) Entity '/home/alunos/Downloads/blackJack-A/simulation/modelsim/rtl_work.datapath' has no architecture.
+# Error loading design
